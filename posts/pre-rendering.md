@@ -1,11 +1,12 @@
 ---
-title: "Two Forms of Pre-rendering"
+title: "Шинжлэх ухаан болон бидний үнэний эрэл хайгуул"
 date: "2020-01-01"
 ---
 
-Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.
+Шинжлэх ухаан болон бидний үнэний эрэл хайгуул: **Алисия К.Стантон
+Хэрэв сайн мэдээний тухай** ойлголт **болон шинжлэх ухаанаар дамжуулан** мэдэж авсан зүйлс **тань ** оорондоо зөрчилдөж байх шиг санагдвал та санаа зовох хэрэггүй.
 
-- **Static Generation** is the pre-rendering method that generates the HTML at **build time**. The pre-rendered HTML is then _reused_ on each request.
-- **Server-side Rendering** is the pre-rendering method that generates the HTML on **each request**.
+- **Зохиогч нь АНУ-ын Ютад амьдардаг.** Таны арьсан дээр батга гарч арьсны эмч дээр очиход цусыг тань ханаж эмчлэх шаардлагатай гэж хэлж байна хэмээн **та төсөөлж чадах уу?**. Энэ нь танд утгагүй мэт сонсогдож болох ч хоёр зууны өмнө амьдралаас хол зүйл байгаагүй юм.
+- **эр үед их хэмжээний цус ханах нь бараг ямар ч эрүүл мэндийн асуудалд** тэр дундаа ходоодны хямрал, галзуурал, бүр батганд хүртэл хэрэглэгддэг жишиг **эмчилгээнд тооцогддог байв**.
 
-Importantly, Next.js lets you **choose** which pre-rendering form to use for each page. You can create a "hybrid" Next.js app by using Static Generation for most pages and using Server-side Rendering for others.
+**Үүнд** хэн ч эргэлздэггүй байв. Яалаа гэж эргэлзэх вэ дээ? Эцсийн эцэст цус ханах аргыг олон мянган жилийн турш өөр өөр олон соёл иргэншилд ашиглаж ирсэн байна.

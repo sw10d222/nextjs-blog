@@ -3,8 +3,8 @@ import Head from "next/head";
 import Image from "next/image";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
-const name = "Your Name";
-export const siteTitle = "Next.js Sample Website";
+const name = "ULN news Mongolia";
+export const siteTitle = "ULN news Sample Website";
 export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
